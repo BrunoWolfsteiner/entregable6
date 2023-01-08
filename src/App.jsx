@@ -6,11 +6,11 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import ProductInfo from './pages/ProductInfo';
 import { getAllProducts } from './store/slices/products.slice';
-import Header from './components/shared/Header';
+import Header from './components/Shared/Header';
 import Cart from './pages/Cart';
 import Purchases from './pages/Purchases';
-import ProtectedRoutes from './components/shared/ProtectedRoutes';
-import Footer from './components/shared/Footer';
+import ProtectedRoutes from './components/Shared/ProtectedRoutes';
+import Footer from './components/Shared/Footer';
 import SignUp from './pages/SignUp';
 
 function App() {
