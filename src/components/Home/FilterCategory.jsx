@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import './styles/FilterCategory.css';
+import './styles/filterCategory.css';
 import { getProductsByCategory } from '../../store/slices/products.slice';
 import { useDispatch } from 'react-redux';
 import { getAllProducts } from './../../store/slices/products.slice';

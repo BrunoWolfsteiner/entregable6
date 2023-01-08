@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import  axios from 'axios';
 import getConfig from './../utils/getConfig';
 import PurchaseCard from '../components/Purchases/PurchaseCard';
-import './styles/Purchases.css'
+import './styles/purchases.css'
 
 const Purchases = () => {
 

@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-import './styles/CartProduct.css';
+import './styles/cartProduct.css';
 import getConfig from './../../utils/getConfig';
 import { getUserCart } from './../../store/slices/cart.slice';
 import { useDispatch } from 'react-redux';

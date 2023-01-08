@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './styles/CardProduct.css';
+import './styles/cardProduct.css';
 import axios from 'axios';
 import getConfig from '../../utils/getConfig';
 import { getUserCart } from './../../store/slices/cart.slice';

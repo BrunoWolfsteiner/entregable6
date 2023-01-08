@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import { Navigate, useNavigate } from 'react-router-dom';
-import './styles/Login.css';
+import './styles/login.css';
 
 const Login = () => {
   const [isLogged, setIsLogged] = useState(false);

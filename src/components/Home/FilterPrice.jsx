@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/FilterPrice.css'
+import './styles/filterPrice.css'
 
 const FilterPrice = ({ setInputPrice }) => {
   const handleSubmit = (e) => {

@@ -5,7 +5,7 @@ import FilterCategory from '../components/Home/FilterCategory';
 import FilterPrice from '../components/Home/FilterPrice';
 import ToOrderProducts from '../components/Home/ToOrderProducts';
 import ToOrderProductsByName from '../components/Home/ToOrderProductsByName';
-import './styles/Home.css';
+import './styles/home.css';
 
 const Home = () => {
   const [productsFilter, setProductsFilter] = useState();

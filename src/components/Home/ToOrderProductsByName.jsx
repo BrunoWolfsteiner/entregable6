@@ -4,7 +4,7 @@ import {
   ascendingOrderProductsByName,
   descendingOrderProductsByName,
 } from '../../store/slices/products.slice';
-import './styles/ToOrderProductsByName.css';
+import './styles/toOrderProductsByName.css';
 
 const ToOrderProductsByName = () => {
   const dispatch = useDispatch();

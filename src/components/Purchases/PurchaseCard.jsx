@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/PurchaseCard.css';
+import './styles/purchaseCard.css';
 
 const PurchaseCard = ({ purchase }) => {
   const datePurchase = new Date(purchase.createdAt);

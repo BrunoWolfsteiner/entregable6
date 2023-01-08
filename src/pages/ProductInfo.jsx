@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import ProductDescription from '../components/productInfo/ProductDescription';
+import ProductDescription from '../components/ProductInfo/ProductDescription';
 import { useSelector } from 'react-redux';
 import CardProduct from '../components/Home/CardProduct';
-import SliderImg from '../components/productInfo/SliderImg';
-import './styles/ProductInfo.css'
+import SliderImg from '../components/ProductInfo/SliderImg';
+import './styles/productInfo.css'
 
 const ProductInfo = () => {
   const { id } = useParams();
